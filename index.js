@@ -21,10 +21,6 @@ app.use(body.urlencoded({extended:false}));
 const nodeRouter = require("./routes/nodeRouter");
 app.use("/node",nodeRouter);
 
-// app.get('/index', (request,response)=>{
-// 	response.render('portofolioViews');
-// })
-
 
 
 server.listen(3010,function(){
